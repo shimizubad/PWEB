@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios utilizando FlexBox</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            max-width: vhw;
+        }
+
+        .container {
+            display: flex;
+            /*mais importante*/
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+            gap: 10px;
+            /*espaço entre os cards*/
+        }
+
+        .card {
+            flex-basis: calc(100%/3-20px);
+            background-color: rgb(35, 46, 99);
+            color: aliceblue;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 5px 3px 27px 3px rgb(33, 44, 17);
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        .card p {
+            margin-top: 10px 0;
+        }
+
+        button {
+            border-radius: 5px;
+            box-shadow: 1px 1px 23px 2px rgb(210, 216, 202);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Plano Básico</h2>
+            <p>R$19,00/mês</p>
+            <ul>
+                <li>1 Dispositivo</li>
+                <li>Conteúdo em HD</li>
+            </ul>
+            <button>ASSINAR</button>
+        </div>
+        <div class="card">
+            <h2>Plano Família</h2>
+            <p>R$99,90/mês</p>
+            <ul>
+                <li>5 Dispositivos</li>
+                <li>Conteúdo em FHD</li>
+            </ul>
+            <button>ASSINAR</button>
+        </div>
+        <div class="card">
+            <h2>Plano Corporativo</h2>
+            <p>R$199999,90/mês</p>
+            <ul>
+                <li>50000 Dispositivo</li>
+                <li>Conteúdo em UFFHD</li>
+            </ul>
+            <button>ASSINAR</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
