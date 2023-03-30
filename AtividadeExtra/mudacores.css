@@ -1,9 +1,9 @@
 .mudacor{
-    width: 600px;
-    height: 600px
+    width: 500px;
+    height: 500px;
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) and (max-height: 1920px){
     .mudacor {
         background-color: yellow;
     }
@@ -12,7 +12,7 @@
         content: "Amarelo";        
     }
 }
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 1366px) and (max-height: 1366px){
     .mudacor {
         background-color: rebeccapurple;
     }
@@ -21,7 +21,7 @@
         content: "Roxo";        
     }
 }
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px) and (max-height: 1080px){
     .mudacor {
         background-color: red;
     }
@@ -30,7 +30,7 @@
         content: "Vermelho";        
     }
 }
-@media screen and (max-height: 1024px){
+@media screen and (max-width: 1024px) and (max-height: 1024px){
     .mudacor {
         background-color: magenta;
     }
@@ -39,7 +39,7 @@
         content: "Magenta";        
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (max-height: 768px){
     .mudacor {
         background-color: orange;
     }
@@ -48,7 +48,7 @@
         content: "Laranja";        
     }
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) and (max-height: 420px){
     .mudacor {
         background-color: grey;
     }
